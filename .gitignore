@@ -1,0 +1,15 @@
+.idea/
+__pycache__/
+*.pyc
+data/
+*.csv
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+*.tif
+*.tiff
+*.svg

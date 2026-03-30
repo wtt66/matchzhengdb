@@ -1,0 +1,52 @@
+{
+  "platform": "forum_template",
+  "search_url": "https://example.com/search?q={keyword}",
+  "list_link_selector": "a.result-link",
+  "headers": {
+    "Referer": "https://example.com/"
+  },
+  "detail": {
+    "title_selectors": [
+      "h1",
+      "title",
+      "meta:og:title"
+    ],
+    "content_selectors": [
+      ".post-content",
+      ".article-content",
+      ".review-content"
+    ],
+    "publish_time_selectors": [
+      "time",
+      ".publish-time",
+      "meta:article:published_time"
+    ],
+    "author_selectors": [
+      ".author-name",
+      ".user-name",
+      ".meta-author"
+    ],
+    "tag_selectors": [
+      ".tag",
+      ".topic-tag",
+      "a[rel='tag']"
+    ],
+    "like_selectors": [
+      ".like-count",
+      ".vote-count"
+    ],
+    "comment_selector": ".comment-item",
+    "comment_author_selectors": [
+      ".comment-author",
+      ".user-name"
+    ],
+    "comment_time_selectors": [
+      ".comment-time",
+      "time"
+    ],
+    "comment_like_selectors": [
+      ".comment-like",
+      ".vote-count"
+    ]
+  }
+}
